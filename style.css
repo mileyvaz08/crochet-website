@@ -1,0 +1,35 @@
+body {
+    background-color: #f97a35;
+    color:  #b44d3c;
+}
+nav ul{
+    flex-wrap: wrap;
+    margin:0;
+    padding:0;
+    z-index:10;
+}
+nav li {
+    display:flex;
+    list-style: none;
+    background-color: #d1543e;
+    margin: 50px;
+    flex:1;
+    text-align: center;
+    position: relative;
+    height: 35px;
+    border-radius: 1000px;
+
+}
+nav a, nav a:visited{
+    text-decoration:none;
+    width:100%;
+    padding:8px 10px;
+    color:#019cba;
+    font-size: 19px;
+}
+nav a:hover, nav a.active {
+    background-color: #656176;
+}
+nav{
+    width: 100px;
+}
